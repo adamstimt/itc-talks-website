@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://itc-talks.onrender.com/" 
+  origin: "*" 
 }));
 app.use(express.json());
 
