@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { Mic, HelpCircle, Lock } from 'lucide-react'; 
 import itcLogo from './assets/itcLogo.png'; 
 import speakerAvatar from './assets/itcLogo.png'; 
-import questionMarkImg from './assets/itcLogo.png'; 
+import questionMarkImg from './assets/itcLogo.png';
+import anis from "./assets/anis.png" 
 
 const SpeakerCard = ({ name, time, theme, onAskClick, isActive }) => (
   <div className={`relative transition-all duration-500 ${
@@ -21,7 +22,7 @@ const SpeakerCard = ({ name, time, theme, onAskClick, isActive }) => (
 
     <div className="flex items-center gap-4">
       <img 
-        src={speakerAvatar} 
+        src={anis} 
         alt={name} 
         className="w-20 h-16 rounded-xl object-cover border-2 border-white/20 flex-shrink-0 shadow-lg"
       />
