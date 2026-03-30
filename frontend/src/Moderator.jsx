@@ -14,8 +14,8 @@ export default function Moderator() {
       setLoading(true);
       // Fetch both the counts and the specific list
       const [statsRes, listRes] = await Promise.all([
-        axios.get("http://localhost:5000/api/questions/stats"),
-        axios.get(`http://localhost:5000/api/questions/list/${activeTab}`)
+        axios.get("https://itc-talks.onrender.com/api/questions/stats"),
+        axios.get(`https://itc-talks.onrender.com/api/questions/list/${activeTab}`)
       ]);
       setStats(statsRes.data);
       setQuestions(listRes.data);
@@ -32,7 +32,7 @@ export default function Moderator() {
 
   const updateStatus = async (id, newStatus) => {
     try {
-      await axios.put(`http://localhost:5000/api/questions/update-status/${id}`, {
+      await axios.put(`https://itc-talks.onrender.com/api/questions/update-status/${id}`, {
         status: newStatus
       });
       loadData(); // Refresh everything

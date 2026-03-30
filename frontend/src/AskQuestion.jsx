@@ -24,7 +24,7 @@ export default function AskQuestion() {
       setLoading(true);
       
      
-      await axios.post("http://localhost:5000/api/questions/ask", {
+      await axios.post("https://itc-talks.onrender.com/api/questions/ask", {
         name,
         text,
       });

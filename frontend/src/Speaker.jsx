@@ -12,7 +12,7 @@ export default function Speaker() {
 
   const loadQuestions = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/questions/approved");
+      const res = await axios.get("https://itc-talks.onrender.com/api/questions/approved");
       setQuestions(res.data);
     } catch (err) {
       console.error("Error fetching questions:", err);
