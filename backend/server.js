@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173" // URL تاع React frontend
+  origin: "https://itc-talks.onrender.com/" 
 }));
 app.use(express.json());
 
