@@ -60,7 +60,7 @@ const Welcome = () => {
   }, []);
 
   const speakers = [
-    { name: "Speaker 1", time: "1:34 - 2:47", theme: "Tech Innovation" },
+    { name: "yazi abdesami3", time: "1:34 - 2:47", theme: "be faacheeel " },
     { name: "Speaker 2", time: "09:00 - 10:00", theme: "AI Future" },
     { name: "Speaker 3", time: "10:00 - 11:00", theme: "Cyber Security" },
     { name: "Speaker 4", time: "11:00 - 12:00", theme: "Cloud Systems" },
