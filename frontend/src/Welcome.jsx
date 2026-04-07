@@ -65,13 +65,13 @@ const Welcome = () => {
   const speakers = [
     {
       name: "Mohammed Brahimi",
-      time: "09:45 - 11:45",
+      time: "09:45 - 11:00",
       theme: "AI Lifecycle",
       image: speaker1,
     },
     {
       name: "Younes Grar",
-      time: "11:46 - 13:00",
+      time: "11:30 - 13:00",
       theme: "Digital Transformation in Algeria",
       image: speaker2,
     },
