@@ -77,7 +77,7 @@ const Welcome = () => {
     },
     {
       name: "Wanis Hadj Mohammed",
-      time: "14:00 - 15:15",
+      time: "1:00 - 1:15",
       theme: "Sales and Marketing for Startups",
       image: speaker3,
     },
