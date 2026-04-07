@@ -83,7 +83,7 @@ const Welcome = () => {
     },
     {
       name: "Mohammed Mouzaoui",
-      time: "15:16 - 16:30",
+      time: "14:30 - 17:30",
       theme: "Freelance",
       image: speaker4,
     },
