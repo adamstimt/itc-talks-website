@@ -64,29 +64,29 @@ const Welcome = () => {
     return () => clearInterval(timer);
   }, []);
 
-  // ✅ Speakers with images
+  
   const speakers = [
     { 
       name: "Mohammed Brahimi", 
-      time: "08:45 - 10:45", 
+      time: "09:45 - 11:45", 
       theme: "AI Lifecycle",
       image: speaker1
     },
     { 
       name: "Younes Grar", 
-      time: "10:46 - 12:00", 
+      time: "1146 - 13:00", 
       theme: "Digital Transformation in Algeria",
       image: speaker2
     },
     { 
       name: "Wanis Hadj Mohammed", 
-      time: "13:00 - 14:15", 
+      time: "14:00 - 15:15", 
       theme: "Sales and Marketing for Startups",
       image: speaker3
     },
     { 
       name: "Mohammed Mouzaoui", 
-      time: "14:16 - 15:30", 
+      time: "15:16 - 16:30", 
       theme: "Freelance",
       image: speaker4
     },
